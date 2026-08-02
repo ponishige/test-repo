@@ -3,6 +3,8 @@ name: Build Cat Boss APK
 on:
   push:
     branches: [ "agent/cat-boss-android-apk" ]
+  pull_request:
+    branches: [ "main" ]
   workflow_dispatch:
 
 permissions:
